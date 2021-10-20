@@ -1,12 +1,14 @@
 # will-gitflow-demo
 
-repo version: 0.0.91
+repo version: 0.0.9
 
 ### git flow
 
 [nvie/gitflow](https://github.com/nvie/gitflow)
 
 [Article: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+[git flow commands vs git commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
 
 ### Some Videos
 
