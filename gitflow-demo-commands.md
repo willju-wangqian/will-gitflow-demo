@@ -50,7 +50,9 @@ try `git push`: might not succeed since git is confused, set the upstream for th
 
 Do some work
 
-``
+`git flow feature finish feature3`: merge `feature/feature3` back to `develop` and delete it locally.
+
+-   to remotely delete `feature/feature3` at the same time, use `git flow feature -F finish feature3`
 
 
 

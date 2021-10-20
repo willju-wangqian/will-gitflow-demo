@@ -167,6 +167,8 @@ pre code {
 </div>
 
 
+<div id="using-git-commands" class="section level3">
+<h3>Using git commands</h3>
 <p><strong>Create develop branch</strong></p>
 <p><code>git branch develop</code>: create <code>develop</code> branch</p>
 <p><code>git checkout develop</code>: switch to <code>develop</code> branch</p>
@@ -187,6 +189,18 @@ pre code {
 <p><em>optional - delete the feature branch</em></p>
 <p><code>git branch -D feature/an-incredible-feature</code>: delete the branch locally</p>
 <p><code>git push origin :feature/an-incredible-feature</code>: delete the branch remotely</p>
+</div>
+<div id="using-git-flow" class="section level3">
+<h3>Using git flow</h3>
+<p><code>git flow init</code>: connect keywords with the existing branches</p>
+<p><code>git flow feature start feature3</code>: create a new branch <code>feature/feature3</code> and switch to it</p>
+<p><code>git flow feature publish feature3</code>: switch to <code>feature/feature3</code> and push it to the <code>origin</code></p>
+<p>Do some work</p>
+<p><code>git flow feature finish feature3</code>: merge <code>feature/feature3</code> back to <code>develop</code> and delete it locally.</p>
+<ul>
+<li>to remotely delete <code>feature/feature3</code> at the same time, use <code>git flow feature -F finish feature3</code></li>
+</ul>
+</div>
 
 
 
