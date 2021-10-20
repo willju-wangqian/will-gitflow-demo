@@ -19,5 +19,3 @@ repo version: 0.0.91
 [London App Developer Video](https://www.youtube.com/watch?v=BYrt6luynCI&ab_channel=LondonAppDeveloper)
 
 ### New Features
-
-some new
