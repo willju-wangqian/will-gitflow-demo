@@ -18,5 +18,6 @@ repo version: 0.0.91
 
 ### New Features
 
+some other text
 
-somehting hopefully can be pulled for new feature
+something hopefully can be pulled for new feature
