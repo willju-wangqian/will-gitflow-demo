@@ -1,3 +1,5 @@
+### Using git commands
+
 **Create develop branch**
 
 `git branch develop`: create `develop` branch
@@ -37,4 +39,18 @@ try `git push`: might not succeed since git is confused, set the upstream for th
 `git branch -D feature/an-incredible-feature`: delete the branch locally
 
 `git push origin :feature/an-incredible-feature`: delete the branch remotely
+
+### Using git flow
+
+`git flow init`: connect keywords with the existing branches
+
+`git flow feature start feature3`: create a new branch `feature/feature3` and switch to it
+
+`git flow feature publish feature3`: switch to `feature/feature3` and push it to the `origin`
+
+Do some work
+
+``
+
+
 
