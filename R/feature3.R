@@ -1,0 +1,1 @@
+sum_func <- function(x, y) {x + y}

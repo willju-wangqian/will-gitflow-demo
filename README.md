@@ -1,6 +1,6 @@
 # will-gitflow-demo
 
-repo version: 0.0.9
+repo version: 0.1.0
 
 ### git flow
 
@@ -25,3 +25,5 @@ repo version: 0.0.9
 [Gitflow vs trunk-based workflows](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
 
 ### New Features
+
+Hello World!
